@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wa.ris | Footwear Workshop</title>
+  <meta name="description" content="wa.ris Footwear Workshop — manufacturing partner for footwear brands.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f5f0e8;
+      color: #24231f;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ded6ca;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+
+    header span {
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #766d60;
+    }
+
+    .hero {
+      padding: 90px 7% 100px;
+      background: #e8dfd1;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #796c5c;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 8vw, 76px);
+      font-weight: normal;
+      line-height: 1.1;
+      max-width: 700px;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      max-width: 470px;
+      color: #5e584f;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #292720;
+      color: #fff;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    section {
+      padding: 75px 7%;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      font-size: 36px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      max-width: 650px;
+      color: #625c53;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 35px;
+    }
+
+    .product {
+      background: #e7dfd3;
+      padding: 12px;
+    }
+
+    .product img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      background: #d8cdbd;
+    }
+
+    .product h3 {
+      font-size: 16px;
+      margin: 13px 0 4px;
+    }
+
+    .product p {
+      color: #756c60;
+      font-size: 12px;
+    }
+
+    .dark {
+      background: #292720;
+      color: #f5f0e8;
+    }
+
+    .dark p {
+      color: #d0c8bb;
+    }
+
+    .contact {
+      background: #e8dfd1;
+    }
+
+    footer {
+      background: #292720;
+      color: #d0c8bb;
+      padding: 24px 7%;
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      header span {
+        font-size: 9px;
+      }
+
+      .hero {
+        padding-top: 65px;
+        padding-bottom: 70px;
+      }
+
+      section {
+        padding-top: 55px;
+        padding-bottom: 55px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">wa.ris</div>
+    <span>FOOTWEAR WORKSHOP</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Footwear Manufacturing Partner</div>
+      <h1>Crafting footwear for every step.</h1>
+      <p>
+        A footwear workshop partnering with brands to develop
+        thoughtfully crafted footwear, from samples to production.
+      </p>
+      <a class="button" href="#contact">DISCUSS YOUR PROJECT</a>
+    </section>
+
+    <section>
+      <div class="eyebrow">Our Capabilities</div>
+      <h2>Made for your brand.</h2>
+      <p class="intro">
+        We work with footwear brands to develop designs and
+        manufacture products with attention to materials,
+        construction and finishing.
+      </p>
+
+      <div class="products">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80" alt="Women's footwear inspiration">
+          <h3>Women's Footwear</h3>
+          <p>Heels, flats and more.</p>
+        </article>
+
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=700&q=80" alt="Footwear product inspiration">
+          <h3>Sandals & Casual</h3>
+          <p>Everyday footwear development.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div class="eyebrow">The Workshop</div>
+      <h2>From sample to production.</h2>
+      <p class="intro">
+        We collaborate with brands through product development,
+        sample preparation, material selection and production
+        coordination. Every project starts with a conversation
+        about your requirements.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="eyebrow">Start a Conversation</div>
+      <h2>Let's build something together.</h2>
+      <p class="intro">
+        Looking for a footwear manufacturing partner?
+        Contact our team to discuss your next project.
+      </p>
+      <p style="margin-top: 25px;">
+        Email: email-kamu@example.com
+      </p>
+      <p>WhatsApp: nomor-kamu</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 wa.ris Footwear Workshop. All rights reserved.
+  </footer>
+</body>
+</html>
